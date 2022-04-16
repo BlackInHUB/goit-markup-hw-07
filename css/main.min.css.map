@@ -17,8 +17,8 @@
         "../scss/components/_our-team.scss",
         "../scss/components/_clients.scss",
         "../scss/components/_footer.scss",
-        "../scss/components/_filter-btn.scss",
-        "../scss/components/_portfolio.scss",
+        "../scss/components/_portfolio-filter.scss",
+        "../scss/components/_portfolio-galery.scss",
         "../scss/components/_modal-window.scss"
     ],
     "names": [],
