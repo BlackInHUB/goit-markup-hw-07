@@ -5,11 +5,11 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accept-item-text-color);
-}
-
-.logo-link.top {
-    margin-right: 93px;
-    padding: 24px 0;
+    
+    &.top {
+        margin-right: 93px;
+        padding: 24px 0;
+    }
 }
 
 .logo-studio-top {

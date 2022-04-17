@@ -4,10 +4,10 @@
 
 .benefits-list-item {
     flex-basis: calc((100% - 30px)/4);
-}
 
-.benefits-list-item:not(:last-child) {
-    margin-right: 30px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .benefits-icon-container {

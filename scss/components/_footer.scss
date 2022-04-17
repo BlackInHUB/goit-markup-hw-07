@@ -26,11 +26,12 @@ footer {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.address-link:hover,
-.address-link:focus {
-    color: var(--accept-item-text-color);
+
+    &:hover,
+    &:focus {
+        color: var(--accept-item-text-color);
+    }
 }
 
 .address-list-item:not(:last-child) {
@@ -59,11 +60,11 @@ footer {
     background-color: rgba(255, 255, 255, 0.1);
     fill: var(--light-theme-background);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-link.footer-social-link:hover,
-.social-link.footer-social-link:focus {
-    background-color: var(--accept-item-text-color);
+    &:hover,
+    &:focus {
+        background-color: var(--accept-item-text-color);
+    }
 }
 
 .social-list-item:not(:last-child) {
@@ -96,11 +97,11 @@ footer {
     padding-left: 16px;
     color: var(--light-theme-background);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.subscribe-email-input:focus {
-    outline: none;
-    border-color: var(--accept-item-text-color);
+    &:focus {
+        outline: none;
+        border-color: var(--accept-item-text-color);
+    }
 }
 
 .footer-subscribe-btn {
@@ -119,11 +120,11 @@ footer {
     align-items: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-subscribe-btn:hover,
-.footer-subscribe-btn:focus {
-    background-color: #188ce8;
+    &:hover,
+    &:focus {
+        background-color: #188ce8;
+    }
 }
 
 .icon-send {
