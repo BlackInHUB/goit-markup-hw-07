@@ -22,7 +22,7 @@
   overflow: hidden;
 }
 
-.social-list__item-link, .benefits-list__icon-container, .clients-list__item-link, .checkbox-lable {
+.social-list__item-link, .benefits-list__icon-container, .clients-list__item-link, .modal-form__checkbox-lable {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -636,7 +636,7 @@ img {
   padding: 40px;
 }
 
-.close-modal {
+.modal-window__close-btn {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -652,15 +652,15 @@ img {
   cursor: pointer;
 }
 
-.close-modal:hover .close-modal-icon {
-  fill: var(--accept-item-text-color);
-}
-
-.close-modal-icon {
+.modal-window__btn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-title {
+.modal-window__close-btn:hover .modal-window__btn-icon {
+  fill: var(--accept-item-text-color);
+}
+
+.modal-window__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -669,12 +669,12 @@ img {
   margin-bottom: 12px;
 }
 
-.modal-input-field {
+.modal-form__input-field {
   display: block;
   margin-bottom: 10px;
 }
 
-.modal-input-lable {
+.modal-form__input-lable {
   display: block;
   margin-bottom: 4px;
   font-weight: 400;
@@ -684,12 +684,12 @@ img {
   color: var(--secondary-text-color-light-background);
 }
 
-.modal-input-container {
+.modal-form__input-container {
   display: block;
   position: relative;
 }
 
-.modal-input {
+.modal-form__input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -699,12 +699,12 @@ img {
   padding-left: 42px;
 }
 
-.modal-input:focus {
+.modal-form__input:focus {
   outline: none;
   border-color: var(--accept-item-text-color);
 }
 
-.modal-input-icon {
+.modal-form__input-icon {
   position: absolute;
   top: 50%;
   left: 15px;
@@ -713,11 +713,11 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-input:focus + .modal-input-icon {
+.modal-form__input:focus + .modal-form__input-icon {
   fill: var(--accept-item-text-color);
 }
 
-.modal-coment {
+.modal-form__comment {
   resize: none;
   width: 100%;
   height: 120px;
@@ -729,12 +729,12 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-coment:focus {
+.modal-form__comment:focus {
   outline: none;
   border-color: var(--accept-item-text-color);
 }
 
-.modal-coment::placeholder {
+.modal-form__comment::placeholder {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
@@ -742,13 +742,13 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.modal-checkbox-container {
+.modal-form__checkbox-container {
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
 }
 
-.checkbox-lable {
+.modal-form__checkbox-lable {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -756,7 +756,7 @@ img {
   color: var(--secondary-text-color-light-background);
 }
 
-.checkbox-nochecked {
+.modal-form__checkbox_nochecked {
   display: flex;
   align-items: center;
   width: 16px;
@@ -768,29 +768,29 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-checkbox:focus + .checkbox-lable .checkbox-nochecked {
+.modal-form__checkbox:focus + .modal-form__checkbox-lable .modal-form__checkbox_nochecked {
   border-color: var(--accept-item-text-color);
 }
 
-.modal-checkbox:checked + .checkbox-lable .checkbox-nochecked {
+.modal-form__checkbox:checked + .modal-form__checkbox-lable .modal-form__checkbox_nochecked {
   border: none;
 }
 
-.checkbox-checked {
+.modal-form__checkbox_checked {
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-checkbox:checked + .checkbox-lable .checkbox-nochecked .checkbox-checked {
+.modal-form__checkbox:checked + .modal-form__checkbox-lable .modal-form__checkbox_nochecked .modal-form__checkbox_checked {
   opacity: 1;
 }
 
-.policy-link {
+.modal-form__policy-link {
   text-decoration: underline;
   color: var(--accept-item-text-color);
 }
 
-.modal-submit-btn {
+.modal-form__submit-btn {
   display: block;
   margin: 0 auto;
   font-weight: 700;
@@ -807,7 +807,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-submit-btn:hover, .modal-submit-btn:focus {
+.modal-form__submit-btn:hover, .modal-form__submit-btn:focus {
   background-color: #188CE8;
 }
 /*# sourceMappingURL=main.css.map */
