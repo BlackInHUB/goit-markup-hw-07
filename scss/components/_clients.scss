@@ -2,12 +2,10 @@
     display: flex;
 }
 
-.clients-link {
-    display: flex;
+.clients-list__item-link {
+    @extend %flex-align-justify;
     width: 170px;
     height: 90px;
-    justify-content: center;
-    align-items: center;
     border: 1px solid var(--light-icon-color);
     border-radius: 4px;
     fill: var(--light-icon-color);
@@ -20,6 +18,6 @@
     }
 }
 
-.clients-list-item:not(:last-child) {
+.clients-list__item:not(:last-child) {
     margin-right: 30px;
 }

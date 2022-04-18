@@ -7,22 +7,22 @@
     justify-content: space-between;
 }
 
-.navigation {
+.header-nav {
     display: flex;
     align-items: center;
 }
 
 .nav-list,
-.contacts-top-list {
+.contacts-list {
     display: flex;
     align-items: center;
 }
 
-.nav-list-item:not(:last-child) {
+.nav-list__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.nav-list-link {
+.nav-list__item-link {
     position: relative;
     display: block;
     padding: 32px 0;
@@ -39,15 +39,15 @@
     }
 }
 
-.contacts-top-list-item:not(:last-child) {
+.contacts-list__item:not(:last-child) {
     margin-right: 50px;
 }
 
-.contacts-top-icon {
+.contacts-list__item-icon {
     margin-right: 10px;
 }
 
-.contacts-top-list-link {
+.contacts-list__item-link {
     display: flex;
     align-items: center;
     padding: 32px 0;

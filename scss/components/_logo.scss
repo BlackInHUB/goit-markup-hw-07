@@ -1,4 +1,4 @@
-.logo-link {
+.logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -6,16 +6,16 @@
     letter-spacing: 0.03em;
     color: var(--accept-item-text-color);
     
-    &.top {
+    &.logo-top {
         margin-right: 93px;
         padding: 24px 0;
     }
 }
 
-.logo-studio-top {
+.logo__studio_black {
     color: #000000;
 }
 
-.logo-studio-bottom {
+.logo__studio_white {
     color: var(--light-theme-background);
 }

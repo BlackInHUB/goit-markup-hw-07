@@ -6,15 +6,15 @@
     display: flex;
 }
 
-.we-do-list-item:not(:last-child) {
+.we-do-list__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.we-do-list-item-container {
+.we-do-list__item-container {
     position: relative;
 }
 
-.we-do-list-item-overlay {
+.we-do-list__item-overlay {
     position: absolute;
     bottom: 0;
     left: 0;
